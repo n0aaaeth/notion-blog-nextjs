@@ -1,9 +1,6 @@
 import { Client } from "@notionhq/client";
 import { NotionToMarkdown } from "notion-to-md";
 
-// const NOTION_TOKEN = "secret_kW1eJBj9DsBJNWy1Sl6T1ATWXWW2K592psFb7HixkZT";
-// const NOTION_DB_ID = "af4a60142df446eb80677e7c3f90c568";
-
 const NUMBER_OF_POSTS_PER_PAGE = 4;
 
 const notion = new Client({
